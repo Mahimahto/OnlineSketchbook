@@ -1,0 +1,27 @@
+.container{
+    display:inline-grid;
+    /* grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px; */
+    grid-template-columns: repeat(100, 1fr);
+    grid-template-rows: repeat(100, 1fr);
+    border : 1px solid black;
+    width: 400px;
+    height: 400px;
+}
+/* .cell{
+    border: 1px solid grey;
+} */
+
+
+    /* background-color: aqua;
+    /* row-gap: 20px;
+    column-gap: 10px; */
+    /* grid-auto-rows: 200px;
+    gap: 20px;
+} */
+
+
+/* .box{
+    background-color:orangered;
+    border: 1px solid black;
+} */ 

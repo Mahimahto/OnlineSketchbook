@@ -27,3 +27,9 @@ divs.forEach((div) => {
     })
 }
 )
+var number = 1000
+for(var i = 0; i>number; i++){
+    var newbox = document.createElement("div");
+    newbox.classList.add("box");
+    console.log(newbox);
+}
